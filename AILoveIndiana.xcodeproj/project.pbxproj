@@ -40,6 +40,7 @@
 		BC6670701BB5777900B030DC /* AILoveIndianaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AILoveIndianaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC6670751BB5777900B030DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC6670761BB5777900B030DC /* AILoveIndianaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AILoveIndianaTests.m; sourceTree = "<group>"; };
+		BC6670961BB57C4C00B030DC /* AIDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIDefine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,12 @@
 		BC6670591BB5777900B030DC /* AILoveIndiana */ = {
 			isa = PBXGroup;
 			children = (
+				BC6670951BB578BE00B030DC /* Libs */,
+				BC6670941BB578AA00B030DC /* Tools */,
+				BC66708F1BB5786B00B030DC /* PersonalCenter(个人中心) */,
+				BC66708A1BB5784E00B030DC /* Announced(最新揭晓) */,
+				BC6670851BB577FD00B030DC /* AllGods(全部商品) */,
+				BC6670801BB577D400B030DC /* SnapUp(抢购) */,
 				BC66705E1BB5777900B030DC /* AppDelegate.h */,
 				BC66705F1BB5777900B030DC /* AppDelegate.m */,
 				BC6670611BB5777900B030DC /* ViewController.h */,
@@ -117,6 +124,177 @@
 				BC6670751BB5777900B030DC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC6670801BB577D400B030DC /* SnapUp(抢购) */ = {
+			isa = PBXGroup;
+			children = (
+				BC6670811BB577D400B030DC /* Controller */,
+				BC6670821BB577D400B030DC /* Model */,
+				BC6670831BB577D400B030DC /* Other */,
+				BC6670841BB577D400B030DC /* VIew */,
+			);
+			path = "SnapUp(抢购)";
+			sourceTree = "<group>";
+		};
+		BC6670811BB577D400B030DC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC6670821BB577D400B030DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC6670831BB577D400B030DC /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		BC6670841BB577D400B030DC /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		BC6670851BB577FD00B030DC /* AllGods(全部商品) */ = {
+			isa = PBXGroup;
+			children = (
+				BC6670861BB577FD00B030DC /* Controller */,
+				BC6670871BB577FD00B030DC /* Model */,
+				BC6670881BB577FD00B030DC /* Other */,
+				BC6670891BB577FD00B030DC /* VIew */,
+			);
+			path = "AllGods(全部商品)";
+			sourceTree = "<group>";
+		};
+		BC6670861BB577FD00B030DC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC6670871BB577FD00B030DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC6670881BB577FD00B030DC /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		BC6670891BB577FD00B030DC /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		BC66708A1BB5784E00B030DC /* Announced(最新揭晓) */ = {
+			isa = PBXGroup;
+			children = (
+				BC66708B1BB5784E00B030DC /* Controller */,
+				BC66708C1BB5784E00B030DC /* Model */,
+				BC66708D1BB5784E00B030DC /* Other */,
+				BC66708E1BB5784E00B030DC /* VIew */,
+			);
+			path = "Announced(最新揭晓)";
+			sourceTree = "<group>";
+		};
+		BC66708B1BB5784E00B030DC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC66708C1BB5784E00B030DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC66708D1BB5784E00B030DC /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		BC66708E1BB5784E00B030DC /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		BC66708F1BB5786B00B030DC /* PersonalCenter(个人中心) */ = {
+			isa = PBXGroup;
+			children = (
+				BC6670901BB5786B00B030DC /* Controller */,
+				BC6670911BB5786B00B030DC /* Model */,
+				BC6670921BB5786B00B030DC /* Other */,
+				BC6670931BB5786B00B030DC /* VIew */,
+			);
+			path = "PersonalCenter(个人中心)";
+			sourceTree = "<group>";
+		};
+		BC6670901BB5786B00B030DC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC6670911BB5786B00B030DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC6670921BB5786B00B030DC /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		BC6670931BB5786B00B030DC /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		BC6670941BB578AA00B030DC /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				BC6670961BB57C4C00B030DC /* AIDefine.h */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		BC6670951BB578BE00B030DC /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
